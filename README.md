@@ -31,8 +31,8 @@ This project represents the culmination of the "Image to Insight" curriculum, in
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/your-repo/image-to-insight.git
-cd image-to-insight
+git clone https://github.com/Thunder25Beast/meme-analyzer.git
+cd meme-analyzer
 ```
 
 ### Step 2: Create Virtual Environment
