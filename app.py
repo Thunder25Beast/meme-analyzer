@@ -119,7 +119,7 @@ if uploaded_file is not None:
         st.subheader("Original Image")
         try:
             image = Image.open(uploaded_file)
-            st.image(image, caption='Uploaded Meme', width=None)  # Fixed deprecated parameter
+            st.image(image, caption='Uploaded Meme', use_container_width=True)
         except Exception as e:
             st.error(f"Error reading image: {e}")
             st.stop()
